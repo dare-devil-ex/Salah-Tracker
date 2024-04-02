@@ -18,7 +18,7 @@ const SalahTracker = () => {
       params: {
         city: city,
         country: country,
-        method: '2'
+        method: '8'
       }
     });
     setSalahTimes(response.data.data.timings);
